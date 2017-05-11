@@ -1,0 +1,57 @@
+EE219 - Winter 2017 - Project 1
+
+Team:
+	Xiao Yan - 704534585
+	Jingxian Xu - 604721196
+	Wenrui Wu - 104778067
+
+Packages we used (library dependencies):
+	sklearn:
+		http://scikit-learn.org/stable/ 
+	matplotlib:
+		http://matplotlib.org/
+	statsmodels:
+		http://statsmodels.sourceforge.net/
+	pandas:
+		http://pandas.pydata.org/
+
+Trouble shooting:
+	We have encountered several occurences of errors when running code with all packages already installed. When this happens, updating all the packages installed usually solves the problem. If the problem persists, please try manually removing all package files and installing the latest version of the packages anew.
+
+How to run our code:
+	The main programs are "main-network.py" for the network part and "main-housing.py" for the boston housing part.
+
+	To run our code, execute the following command in terminal:
+	$ make run
+
+	Alternatively, you can do:
+	$ python main-network.py
+	and
+	$ python main-housing.py
+	respectively.
+
+	The code will run and go through all the questions, generating data and plot needed to answer each question.
+
+	Alternatively, you can execute corresponding functions in files for each individual problem. These files and their corresponding functions are:
+		network_q1.py 	- plot_size_versus_day()
+		network_q2.py 	- linear_regression_model()
+		network_q2b.py 	- random_forest_model()
+		network_q2c.py 	- neural_network_regression_model()
+		network_q3.py 	- piecewise_regression_model()
+		housing_q4.py 	- linear_regression_model(), poly_regression_model()
+		housing_q5.py 	- ridge_regression(), lasso_regression()
+	To execute these functions, we recommend using ipython to load the module and execute the functions. For example, if you want to execute the code for question 2(c):
+
+$ ipython
+Python 2.7.6 |Anaconda 1.9.1 (x86_64)| (default, Jan 10 2014, 11:23:15) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 1.1.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: from housing_q2c import *
+
+In [2]: neural_network_regression_model()
