@@ -1,0 +1,32 @@
+EE219 - Winter 2017 - Project 2
+
+Team:
+	Xiao Yan - 704534585
+	Jingxian Xu - 604721196
+	Wenrui Wu - 104778067
+
+Packages we used (library dependencies):
+	sklearn:
+		http://scikit-learn.org/stable/ 
+	matplotlib:
+		http://matplotlib.org/
+	Natural Language Toolkit:
+		http://www.nltk.org/
+
+How to run the code:
+	You can use "make run" to run all the code. Like this:
+
+	$ make run
+
+	If a "Permission denied" error occurs, try:
+
+	$ chmod +x run_all.sh
+
+	...and "make run" again. It is because we use a shell script to automate the execution of all code written...
+
+	Alternatively, you can execute each individual question in the project specification. For example:
+
+	$ python question_b.py
+
+	Notice that question (j) is split into two parts. "question_j.py" is the code to generate report for the Naive Bayes method, and "question_j_svm.py" corresponds to the SVM method.
+	"question_j_svm_alternative.py" is the code for a side note at the end of the report.
