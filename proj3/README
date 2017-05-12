@@ -1,0 +1,21 @@
+EE219 - Winter 2017 - Project 3
+
+Team:
+	Xiao Yan - 704534585
+	Jingxian Xu - 604721196
+	Wenrui Wu - 104778067
+
+Packages/Libraries we used:
+	pandas:
+		http://pandas.pydata.org/
+
+How to run the code:
+	1. Run:
+		$ python generate_out_csv.py
+	to generate csv file for matlab's use (very large!)
+	By default it will use the ml-latest-small/ratings.csv
+	You can also specify an input file. For example, if you have the complete dataset, you can do:
+		$ python generate_out_csv.py ml-latest/ratings.csv
+
+	2. Open Matlab, cd into the matlab folder under this directory, then execute the "main.m" script.
+		It will automatically execute scripts for all questions. Once each question's script is completed, the program will ask you to press ENTER to continue, and then clean the screen.

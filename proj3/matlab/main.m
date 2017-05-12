@@ -1,0 +1,10 @@
+decmp;
+input('Press ENTER to continue...');
+part2;
+input('Press ENTER to continue...');
+part3;
+input('Press ENTER to continue...');
+part4;
+input('Press ENTER to continue...');
+part5;
+disp('FIN.');
