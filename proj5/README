@@ -1,0 +1,22 @@
+EE219 - Winter 2017 - Project 5
+
+Team:
+	Xiao Yan - 704534585
+	Jingxian Xu - 604721196
+	Wenrui Wu - 104778067
+
+Assumptions:
+	You have the needed data in place, and they are stored under the directory tweet_data/ and test_data/ respectively.
+
+Packages we used (library dependencies):
+	sklearn:
+		http://scikit-learn.org/stable/ 
+	matplotlib:
+		http://matplotlib.org/
+	statsmodels:
+		http://statsmodels.sourceforge.net/
+
+How to run the code:
+	We wrote a Makefile so you can run with:
+		$ make run
+	You can also look into the Makefile to run each part separately, but take heed that part2n3.py with --savefeat flag will generate files that summarize features extracted from tweet data for part4.py and part5.py to use (so that they don't need to read the tweet data again).

@@ -1,0 +1,6 @@
+tweet_data/
+test_data/
+*.csv
+*.png
+program_report.txt
+model_stats*.txt

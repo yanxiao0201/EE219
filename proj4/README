@@ -1,0 +1,17 @@
+EE219 - Winter 2017 - Project 4
+
+Team:
+	Xiao Yan - 704534585
+	Jingxian Xu - 604721196
+	Wenrui Wu - 104778067
+
+Packages we used (library dependencies):
+	sklearn:
+		http://scikit-learn.org/stable/ 
+	matplotlib:
+		http://matplotlib.org/
+	Natural Language Toolkit:
+		http://www.nltk.org/
+
+How to run the code:
+	$ make run
